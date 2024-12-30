@@ -1,7 +1,8 @@
 Feature: Fetch all the surveys that were completed by the given member id
 
 #TODO would be great to implement a custom method to get the completed surveys from api/members/member_id 
-#     and check points based on that response
+#     and check points based on that response 
+#     also would be great to avoid response acces by index had troubles with ? syntax
 
 Scenario Outline: Check points for survey <surveyId> of member 100
     Given url 'http://localhost:8080/api/members/100/points'
