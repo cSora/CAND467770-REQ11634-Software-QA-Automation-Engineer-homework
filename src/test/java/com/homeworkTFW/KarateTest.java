@@ -6,8 +6,7 @@ class KarateTest {
 
     @Karate.Test
     Karate testAll() {
-        System.out.println(getClass().getResource("/com/homeworkTFW/example.feature"));
-        return Karate.run("classpath:com/homeworkTFW/example.feature").relativeTo(getClass());
+        return Karate.run("classpath:com/homeworkTFW/features").relativeTo(getClass());
     }
 
 }
