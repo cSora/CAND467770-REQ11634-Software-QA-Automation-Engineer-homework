@@ -12,6 +12,9 @@
 
 ### How to Use
 
+0. Make sure that the application is running and that the .jar file is located in the src folder. You can run the application using the following command:
+```java -jar dynata-surveys-0.0.1-SNAPSHOT.jar```
+
 1. First, make sure you have all the Maven dependencies installed by running the following command:
    ```bash
    mvn clean install
