@@ -1,28 +1,35 @@
-# CAND467770-REQ11634-Software-QA-Automation-Engineer-homework
-## David Somfai API testfw
 
-**Hi there fellow user of this testframework**
+# CAND467770-REQ11634-Software-QA-Automation-Engineer-Homework
+## David Somfai API Test Framework
+
+**Hi there, fellow user of this test framework!**
 
 ### Basics
 
-- This project is a JAVA project wich uses POM as its building tool, if you wish to extend it please don't forget to include the changes in every impacted branch and notice fellow testers also.
-- The main goal of the framework is to test different APIs and ensure their workings are as expected.
-- The framework uses KARATE as its main motor. You can read about KARATE here: [KARATE](https://github.com/karatelabs/karate?tab=readme-ov-file#readme)
+- This project is a **Java** project that uses **POM** (Project Object Model) as its build tool. If you wish to extend it, please don't forget to include the changes in every impacted branch and notify fellow testers.
+- The main goal of the framework is to test different APIs and ensure their functionality is as expected.
+- The framework uses **Karate** as its main engine. You can read more about Karate here: [Karate](https://github.com/karatelabs/karate?tab=readme-ov-file#readme)
 
-### How to use
+### How to Use
 
-1. As a starter make sure you have all the maven dependecies installed by running this command:
-```mvn clean install```
-2. If you want to run the tests simply use this command: 
-```mvn clean verify```
-3. To see the reports after running check out the __target/karate-reports__ folder and open the ***karate-summary.html*** 
+1. First, make sure you have all the Maven dependencies installed by running the following command:
+   ```bash
+   mvn clean install
+   ```
 
-### Future plans
+2. To run the tests, use this command:
+   ```bash
+   mvn clean verify
+   ```
 
-The framework is heavily WIP, so there are a lot of handy functionalities wich are not included YET!
+3. After running the tests, you can find the reports in the **target/karate-reports** folder. Open the **karate-summary.html** file to view the results.
 
-1. run based on test tag
-2. custom test cases
-3. dynamic test data injecting and handling
+### Future Plans
 
-And so on, the possibilites are endless, it just needs our imagination and work to make it an even more awesome testing tool! 
+The framework is still a **work in progress (WIP)**, so there are many useful features that are not included yet! Some of the planned enhancements include:
+
+1. Running tests based on tags
+2. Adding custom test cases
+3. Dynamic test data injection and handling
+
+And many more! The possibilities are endless — it just needs our imagination and effort to make it an even more powerful testing tool!
